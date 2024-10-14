@@ -2,11 +2,17 @@ name: dadata_client
 description: Dart package for Dadata.ru API integration. Provides address suggestions, data validation, and enrichment. Compatible with both Flutter and Dart.
 version: 0.1.0+1
 
-
 environment:
   sdk: ^3.5.0
 
 dev_dependencies:
+  build_runner: ^2.4.13
+  dart_mappable_builder: ^4.2.3
+  http_mock_adapter: ^0.6.1
   mocktail: ^1.0.4
   test: ^1.25.8
   very_good_analysis: ^6.0.0
+
+dependencies:
+  dart_mappable: ^4.2.2
+  dio: ^5.7.0
